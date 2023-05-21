@@ -1,0 +1,32 @@
+.add {
+  background-color: #9ec862;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin: 10px;
+}
+.fixed-div{
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+.space{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  /*grid-gap: 1rem;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));*/
+}
+/*@media screen and (max-width: 900px) {
+    .space { 
+        
+    }
+}*/
+@media screen and (max-width: 500px) {
+    .space {
+        flex-direction: column;    }
+}

@@ -1,0 +1,74 @@
+//useEffect(() => {
+    //const savedNoteContent = localStorage.getItem("noteContent");
+    //if (savedNoteContent) {
+    //  setNoteContent(savedNoteContent);
+   // }
+  //}, []);
+
+  ////useEffect(() => {
+    ////localStorage.setItem("noteContent", noteContent);
+ //// }, [noteContent]);
+  
+  //const handleSaveNote = (note) => {
+     //setNotes([...notes, note]);
+  // };
+ // const updateNote = (id, newContent) => {
+  //  setNotes((prevNotes) =>
+  //    prevNotes.map((note) =>
+  //      note.id === id ? { ...note, content: newContent } : note
+  //    )
+  //  );
+ // };//
+    // const handleChange = (event) => {
+     //  setNote(event.target.value);
+     //};
+    
+
+     // useEffect(() => {
+     //   const savedText = localStorage.getItem("noteText");
+     //   if (savedText) {
+     //     setText(savedText);
+     //   }
+     // }, []);
+
+    //  useEffect(() => {
+    //    localStorage.setItem("noteText", text);
+    //  }, [text]);
+    //const ref = useRef(null);
+   // const handleDelete = (id) => {
+   // const filteredNotes = notes.filter((note) => note.id !== id);
+    //  setNotes(filteredNotes);
+    //};
+    // const handleEditButtonClick = () => {
+    //   setEditing(!isEditing);
+     //};
+
+     //const handleOnClick = () => {
+      //setIsText(!isText);
+     //}
+      // const handleText = () => {
+    //  textHandler();
+    // }
+//To work on this code, this is a reusable button component but not suitable for this
+//project might be used later
+//const Editable = ({ text, type, placeholder, children, ...props }) => {
+  //const [isEditing, setEditing] = useState(false);
+   // const handleEditButtonClick = () => {
+    //  setEditing(!isEditing);
+    //};
+
+  //return (
+  //  <section {...props}>
+  //    {isEditing ? (
+  //      <div onBlur={() => setEditing(false)}>
+  //        {children}
+  //      </div>
+  //    ) : (
+  //      <div onClick={() => setEditing(true)}>
+  //        <span>
+  //          {text || placeholder || "Editable content"}
+  //        </span>
+  //      </div>
+  //    )}
+  //  </section>
+  //)};
